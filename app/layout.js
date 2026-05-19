@@ -1,19 +1,29 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Space_Grotesk, Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-space-grotesk",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
 
 export const metadata = {
-  title: "Your Name Portfolio",
-  description: "Frontend Developer Portfolio",
+  title: "Heba Gusibat — Frontend Developer",
+  description:
+    "Personal portfolio of Heba Gusibat, Frontend Developer focused on building modern, responsive, and user-friendly web applications.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        {children}
-      </body>
+    <html
+      lang="en"
+      className={`${spaceGrotesk.variable} ${inter.variable}`}
+    >
+      <body>{children}</body>
     </html>
   );
 }
