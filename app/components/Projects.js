@@ -16,22 +16,20 @@ function GitHubIcon({ size = 15 }) {
 
 const projects = [
   {
-    title: "React Dashboard App",
+    title: " Dashboard library App",
     description:
       "A feature-rich admin dashboard with charts, tables, and real-time data visualization.",
-    tags: ["React", "TypeScript", "Recharts", "Tailwind CSS"],
-    github: "#",
-    live: "#",
+    tags: ["PHP", "TypeScript", "Recharts", "bootstrap"],
+    github: "https://github.com/HebaBashir137/Library2",
     accentStart: "var(--color-accent)",
     accentEnd: "var(--color-accent-alt)",
   },
   {
-    title: "E-Commerce UI",
+    title: "readiness assessment App",
     description:
-      "A modern shopping experience with cart management, filters, and smooth animations.",
-    tags: ["Next.js", "JavaScript", "Tailwind CSS", "REST APIs"],
+      "A modern  experience ,This is a beautifully designed, highly functional, and extremely context-specific tool. Building an application tailored for a specific regional case study (Benghazi, Libya)",
+    tags: ["Data Analytics", "LocalStorage API", "Data Architecture", "JavaScript"],
     github: "#",
-    live: "#",
     accentStart: "var(--color-accent-alt)",
     accentEnd: "var(--color-accent)",
   },
@@ -41,7 +39,7 @@ const projects = [
       "Personal portfolio showcasing my work and skills, built with Next.js 16 and Tailwind v4.",
     tags: ["Next.js 16", "Tailwind v4", "React 19"],
     github: "#",
-    live: "#",
+    
     accentStart: "var(--color-accent)",
     accentEnd: "var(--color-accent-alt)",
   },

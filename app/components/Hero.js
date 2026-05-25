@@ -63,7 +63,7 @@ export default function Hero() {
             className="text-lg max-w-lg mb-10 leading-relaxed"
             style={{ color: "var(--color-muted)" }}
           >
-           I’m a software engineer specializing in building 
+           I’m a junior software engineer specializing in building 
             exceptional digital experiences. Welcome to my portfolio!
             
           </p>

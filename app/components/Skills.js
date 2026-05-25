@@ -1,12 +1,12 @@
 const skillGroups = [
   {
     category: "Frontend",
-    skills: ["Next.js", "TypeScript", "JavaScript", "HTML5", "CSS3","Tailwind CSS", "CSS Modules", "Responsive Design"],
+    skills: ["Next.js", "JavaScript", "HTML5", "CSS3","Tailwind CSS", "Data analysis", "Responsive Design"],
   },
   {
 
     category: "Tools",
-    skills: ["Git", "Figma","Node.js"],
+    skills: ["Git", "Figma","Node.js", "VS Code", "Chrome DevTools", "Postman"],
   },
 ];
 

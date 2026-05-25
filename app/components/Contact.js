@@ -29,8 +29,8 @@ function LinkedInIcon({ size = 20 }) {
 }
 
 const socials = [
-  { Icon: GitHubIcon, label: "GitHub", href: "https://github.com" },
-  { Icon: LinkedInIcon, label: "LinkedIn", href: "https://linkedin.com" },
+  { Icon: GitHubIcon, label: "GitHub", href: "https://github.com/HebaBashir137" },
+  
   { Icon: Mail, label: "Email", href: "mailto:heba_4192@limu.edu.ly" },
 ];
 

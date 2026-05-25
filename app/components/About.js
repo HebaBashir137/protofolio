@@ -21,8 +21,7 @@ export default function About() {
             style={{ color: "var(--color-muted)" }}
           >
             I&apos;m a passionate Frontend Developer focused on crafting modern
-            web experiences. I love clean code, great UX, and turning complex
-            problems into simple, elegant solutions.
+            web experiences. 
           </p>
           
         </div>
